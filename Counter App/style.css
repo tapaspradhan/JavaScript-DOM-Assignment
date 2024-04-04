@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100wh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#counterapp {
+    height: 20rem;
+    width: 30rem;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border-color: black 2px solid;
+    box-shadow: 0 0 20px black;
+    border-radius: 5px;
+}
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+}
+span {
+    padding: 10px 15px;
+    border: 2px solid black;
+    font-size: 18px;
+}
+.copyright {
+   color: white;
+}

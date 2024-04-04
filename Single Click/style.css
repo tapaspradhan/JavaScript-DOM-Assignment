@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clickme {
+    padding: 20px 50px;
+    background-color: #3c8600;
+    color: #ffffff;
+    border-style: none;
+    border-radius: 12px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 700;
+}

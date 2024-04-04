@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100wh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.runmouseover {
+    font-size: 25px;
+    font-weight: 700;
+    padding: 20px 80px;
+    background-color: #003f00;
+    color: #ffffff;
+    border-radius: 15px;
+}
